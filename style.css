@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(72, 63, 63);
+}
+button {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(140, 125, 125);
+  border-radius: 10px;
+}
+
+#color {
+  background-color: rgb(72, 63, 63);
+}
+
+#tableau {
+  width: 538px;
+  border: 1px solid;
+  height: 60px;
+  background-color: transparent;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  text-align: end;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.calcul {
+  display: grid;
+  grid-template-columns: repeat(7, 70px);
+  grid-template-rows: repeat(5, 40px);
+  grid-gap: 10px;
+}
