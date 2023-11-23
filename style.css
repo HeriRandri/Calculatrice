@@ -1,25 +1,41 @@
+* {
+  margin: 0;
+}
+
 .container {
+  border: 1ps solid black;
   display: flex;
   height: 100vh;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 10px;
   background-color: rgb(72, 63, 63);
+  gap: 20px;
 }
+.calc {
+  border-radius: 10px;
+  box-shadow: -3px -3px 7px rgb(158, 114, 114), 3px 3px 5px;
+  padding: 20px;
+  border-top: 1px solid;
+  background-image: linear-gradient(rgb(33, 26, 26) 5%, rgb(55, 55, 85) 73%);
+}
+
 button {
   color: white;
   font-weight: bold;
   background-color: rgb(140, 125, 125);
   border-radius: 10px;
+  box-shadow: -02px 02px 01px red;
 }
 
 #color {
   background-color: rgb(72, 63, 63);
+  box-shadow: -02px 02px 01px greenyellow;
 }
 
 #tableau {
-  width: 538px;
+  margin-bottom: 10px;
+  width: 505px;
   border: 1px solid;
   height: 60px;
   background-color: transparent;
@@ -29,13 +45,14 @@ button {
   text-align: end;
   font-weight: bold;
   font-size: 20px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 10px;
+  box-shadow: -02px 02px 01px;
 }
 
 .calcul {
   display: grid;
   grid-template-columns: repeat(7, 70px);
   grid-template-rows: repeat(5, 40px);
-  grid-gap: 10px;
+  grid-gap: 04px;
 }
